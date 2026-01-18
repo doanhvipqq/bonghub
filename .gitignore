@@ -1,0 +1,7 @@
+# Roblox Script Hub
+*.log
+*.tmp
+.vs/
+.vscode/
+node_modules/
+*.bak
