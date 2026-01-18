@@ -2206,7 +2206,7 @@ QuestNeta = function()
 		[6] = PosQ
 	}
 end
-L_1_[16] = loadstring(game:HttpGet("https://raw.githubusercontent.com/doanhvipqq/bonghub/main/BongX-UI-Library.lua"))()
+L_1_[16] = loadstring(game:HttpGet("https://raw.githubusercontent.com/doanhvipqq/bonghub/main/BongX-UI-Library.lua?t="..tostring(os.time())))()
 L_1_[38] = L_1_[16]:MakeWindow({
 	["Title"] = "Bóng X Hub";
 	["SubTitle"] = "by Bóng X - Trần Đức Doanh",
