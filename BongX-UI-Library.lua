@@ -275,7 +275,7 @@ function BongXLib:MakeWindow(Configs)
         local TabButton = Create("TextButton", TabContainer, {
             Size = UDim2.new(1, 0, 0, 35),
             BackgroundColor3 = BongXLib.Themes[BongXLib.Save.Theme]["Color Hub 2"],
-            BorderSizePixe = 0,
+            BorderSizePixel = 0,
             Text = "",
             AutoButtonColor = false
         })
